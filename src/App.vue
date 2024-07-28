@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Income, useStatementStore, type Expense } from './stores/statement'
+import { type Income, useStatementStore, type Expense } from './stores/statement'
 
 const statementStore = useStatementStore()
 
